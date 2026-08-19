@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-^=6-_k)oh!n9-fpcd1qd0rf(!8y2!!8cc*so1if(!*ydv@*_dc
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'https://8000-idx-tweet-1732437108058.cluster-7ubberrabzh4qqy2g4z7wgxuw2.cloudworkstations.dev']
+ALLOWED_HOSTS = ['*']
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-idx-tweet-1732437108058.cluster-7ubberrabzh4qqy2g4z7wgxuw2.cloudworkstations.dev']
 
