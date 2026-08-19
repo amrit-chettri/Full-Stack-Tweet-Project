@@ -5,11 +5,12 @@ from django.contrib.auth.models import User
 
 class TweetForm(forms.ModelForm):
     class Meta:
-        model =Tweet
+        model = Tweet
         fields = ['text', 'images']
         
 class UserRegistrationForm(UserCreationForm):
-    email = forms.EmailField()
+    email = forms.EmailField(required=True)
+
     class Meta:
         model = User
-        fields = ('username', 'email', 'password1', 'password2')
+        fields = ('username', 'email')
