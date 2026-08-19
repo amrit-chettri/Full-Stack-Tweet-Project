@@ -28,7 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['https://full-stack-tweet-project-sepia.vercel.app/']
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-idx-tweet-1732437108058.cluster-7ubberrabzh4qqy2g4z7wgxuw2.cloudworkstations.dev']
+CSRF_TRUSTED_ORIGINS = ['https://full-stack-tweet-project-sepia.vercel.app/']
 
 # Application definition
 
