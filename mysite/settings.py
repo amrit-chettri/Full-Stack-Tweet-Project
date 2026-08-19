@@ -25,10 +25,15 @@ SECRET_KEY = 'django-insecure-^=6-_k)oh!n9-fpcd1qd0rf(!8y2!!8cc*so1if(!*ydv@*_dc
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
+ALLOWED_HOSTS = [
+    'full-stack-tweet-project-sepia.vercel.app',
+    'localhost',
+    '127.0.0.1',
+]
 
-ALLOWED_HOSTS = ['full-stack-tweet-project-sepia.vercel.app']
-
-CSRF_TRUSTED_ORIGINS = ['full-stack-tweet-project-sepia.vercel.app']
+CSRF_TRUSTED_ORIGINS = [
+    'https://full-stack-tweet-project-sepia.vercel.app',
+]
 
 # Application definition
 
